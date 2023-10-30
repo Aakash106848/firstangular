@@ -1,0 +1,36 @@
+h1
+{
+    display: flex;
+    justify-content: center;
+    width: 30%;
+    border: tan solid 4px;
+    padding: 10px;
+    margin: 10px;
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+}
+h1:hover
+{
+    background-color: red;
+    cursor: pointer;
+    color: white;
+    border:solid 4px gold;
+    animation:ani1 3s alternate-reverse infinite;
+
+}
+@keyframes ani1 {
+    
+    0%{
+        rotate: 0deg;
+        transform: skew(0deg);
+    }
+    50%{
+        rotate: -3deg;
+        transform: skew(180deg);
+    }
+    100%{
+        rotate: 3deg;
+        transform: skew(360deg);
+    }
+}

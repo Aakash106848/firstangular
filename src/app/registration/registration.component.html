@@ -1,0 +1,9 @@
+<h1>Registration</h1>
+<fieldset>
+<legend>Personal Information of {{firstName}} {{lastName}}</legend>
+
+   <label>FirstName:&nbsp;</label><input type="text" value="{{firstName}}"  [(ngModel)]="firstName" name="FirstName"/><br><br>
+   <label>LastName:&nbsp;</label><input type="text" value="{{lastName}}" [(ngModel)]="lastName" name="LastName"/><br><br>
+   <input type="submit" value="Submit"/>
+
+</fieldset>
